@@ -1,5 +1,8 @@
-# Use Maven with Java 11 to build the application
+# ...existing code...
 FROM maven:3.9.6-eclipse-temurin-11 AS build
 WORKDIR /app
-COPY /SpringBoot-App/.  /app
-ENTRYPOINT ["mvn", "clean", "package", "-DskipTests"]
+COPY . /app 
+RUN mvn clean package -DskipTests=true
+#cmd can be overridden by the user at runtime but not entrypoint
+CMD ["java", "-jar", "target/springboot-app-0.0.1-SNAPSHOT.jar"]
+# ...existing code...

@@ -13,7 +13,7 @@ public class SpringbootAppApplication {
 }
 @RestController
 class HelloController {
-    @GetMapping("/hello")
+    @GetMapping("/api")
     public String hello() {
         return "Hello, World!";
     }
