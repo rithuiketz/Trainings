@@ -1,0 +1,3 @@
+# Instructions to build and run the Spring Boot REST demo with Java 8
+
+1. This App requires Mysql so use only in Compose mode
