@@ -1,0 +1,6 @@
+1. execute command : wsl --install
+2. now install python : sudo apt install python
+3. create a venv using : python -m venv airflow_env
+4. now activate it : source airflow_env/bin/activate
+5. install deps : pip install apache-airflow[celery]==3.1.0 --constraint https://raw.githubusercontent.com/apache/airflow/constraints-3.1.0/constraints-3.12.txt
+6. check airflow now 

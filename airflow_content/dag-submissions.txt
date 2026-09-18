@@ -1,0 +1,1 @@
+ cp /mnt/c/rithuik/Trainings/DataEngineering_Training/airflow_content/airflow_code/src -r airflow/dags

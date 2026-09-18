@@ -1,0 +1,4 @@
+apache-airflow[celery]==3.3.2
+apache-airflow[operators]
+apache-airflow[amazon]
+pandas
